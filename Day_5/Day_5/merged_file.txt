@@ -1,0 +1,13 @@
+
+    
+            
+                
+                print(f"Sections: ", {args[i]})
+            ------------------
+            -------------------
+            -------------------")
+            ================================
+            Report Sections:
+            Report Title:{title}
+            for i in range(1, len(args)):
+"Lorem Ipsum je slepi tekst,before ki se uporablja pri razvoju tipografij in pri pripravi za tisk. Lorem Ipsum jev uporabi že več kot petsto let saj je to kombinacijo znakov neznani tiskar združil v vzorčno knjigo že v začetku 16. stoletja before . To besedilo pa ni zg before olj preživelo pet stoletij, temveč se je z malenkostnimi spremembami uspešno uveljavilo tudi v elektronskem namiznem založništvu. Na priljubljenosti je Lorem Ipsum pridobil v sedemdesetih letih prejšnjega stoletja, ko so na trg lansirali Letraset folije z Lorem Ipsum odstavki. V zadnjem času seLorem Ipsum pojavlja tudi v priljubljenih programih za namizno za ložništvo kot before je na prime before r Aldus PageMaker.before"

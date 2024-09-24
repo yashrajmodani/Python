@@ -1,0 +1,17 @@
+
+                print(f"Sections: ", {args[i]})
+
+
+            
+            -------------------
+                
+            
+            Report Title:{title}
+            ================================
+            
+            Report Sections:
+            -------------------")
+    
+            for i in range(1, len(args)):
+                print(f"Sections: ", {args[i]})
+            -------------------

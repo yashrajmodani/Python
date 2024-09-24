@@ -1,0 +1,5 @@
+C:\Users\DAI.STUDENTSDC\AppData\Local\Programs\Python\Python39\python.exe C:\Users\DAI.STUDENTSDC\Desktop\Python_Mayuresh\Day_6\Ass_6.py
+start My phone number start is (123) 456-7890 and my friend's number end is 098-765-4321. end
+["start My phone number start is (123) 456-7890 and my friend's number end is 098-765-4321. end"]
+
+Process finished with exit code 0
