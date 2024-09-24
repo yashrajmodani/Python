@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"],
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-group input[type="radio"] {
+            margin-right: 5px;
+        }
+        .form-group input[type="submit"] {
+            background: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group input[type="submit"]:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Survey Form</h1>
+    <form action="/display" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label>How satisfied are you with our service?</label>
+            <label><input type="radio" name="satisfaction" value="1"> 1</label>
+            <label><input type="radio" name="satisfaction" value="2"> 2</label>
+            <label><input type="radio" name="satisfaction" value="3"> 3</label>
+            <label><input type="radio" name="satisfaction" value="4"> 4</label>
+            <label><input type="radio" name="satisfaction" value="5"> 5</label>
+        </div>
+
+        <div class="form-group">
+            <label for="liked">What did you like most about our service?</label>
+            <textarea id="liked" name="liked" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>How likely are you to recommend our service to others?</label>
+            <label><input type="radio" name="recommend" value="1"> 1</label>
+            <label><input type="radio" name="recommend" value="2"> 2</label>
+            <label><input type="radio" name="recommend" value="3"> 3</label>
+            <label><input type="radio" name="recommend" value="4"> 4</label>
+            <label><input type="radio" name="recommend" value="5"> 5</label>
+            <label><input type="radio" name="recommend" value="6"> 6</label>
+            <label><input type="radio" name="recommend" value="7"> 7</label>
+            <label><input type="radio" name="recommend" value="8"> 8</label>
+            <label><input type="radio" name="recommend" value="9"> 9</label>
+            <label><input type="radio" name="recommend" value="10"> 10</label>
+        </div>
+
+
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
